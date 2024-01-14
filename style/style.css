@@ -18,6 +18,12 @@ body{
     border: 0;
 }
 
+/* section{
+    padding: 0;
+    margin: 0;
+} */
+
+
 header{
     color: #3A3A3A;
     font-family: poppins;
@@ -188,6 +194,46 @@ header .banner{
     color: rgba(224, 44, 109, 0.87);
 }
 
+/* feature section */
+
+.feature{
+    width: 77%;
+    margin: auto;
+    display: flex;
+
+}
+
+.feature .feature-text{
+    padding-top: 50px;
+}
+
+.feature .feature-img{
+    width: 100%;
+}
+
+.feature .feature-head{
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    padding-bottom: 16px;
+
+}
+
+.feature .feature-para{
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.feature button{
+    border-radius: 0;
+}
+
+
+
 
 
 
@@ -252,7 +298,22 @@ header .banner{
     .card-container{
         grid-template-columns: repeat(1,1fr);
     }
-
+    .feature{
+        flex-direction: column-reverse;
+        padding: 0;
+        /* margin: 0; */
+        /* width: 90%; */
+    }
+    .feature .feature-text{
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .feature .feature-img{
+        width: 70%;
+        max-width: 400px;
+        margin: 0;
+    }
 
     
 }
